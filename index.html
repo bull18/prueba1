@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🖤¿Me concedes el honor de ser tú enamorada?🖤</title>
+  <style>
+  .body {
+    background-color: rgb(1, 223, 248);
+    text-align:center;
+  }
+  .body__title{
+    color: black;
+  }
+
+  .body__img{
+    width: 40%;
+  
+  }
+  
+  
+</style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">🖤¿Me concedes el honor de ser tú enamorada?🖤</h1>
+<img 
+src="https://i.pinimg.com/564x/fa/21/b2/fa21b22d015571518ef2c5bb347d754c.jpg" 
+alt="de yo para tu xd" class="body__img"/>
+<button id="yes">🖤 Si quiero 🖤</button>
+<button id="no">👍 No quiero 👍</button>
+
+<script>
+  const vuntonSi = document.getElementById("yes");
+  const vuntonNo = document.getElementById("no");
+
+  const somosnobios = () => {
+    alert("Ya somos nobios, te amo mi bida💋");
+    alert("Ahora una canción para mi chikistrikis😘")
+    location.href = "https://www.youtube.com/watch?v=ZhIsAZO5gl0"
+
+  }
+  
+  const nienpedomerechazas = () => {
+    vuntonNo.style.position = "absolute";
+    vuntonNo.style.top = (Math.random() * window.innerHeight) + "px";
+    vuntonNo.style.left = (Math.random() * window.innerWidth) + "px";
+
+  }
+  vuntonSi.addEventListener("click", somosnobios)
+  vuntonNo.addEventListener("mouseover", nienpedomerechazas)
+</script>
+
+</body>
+
+</html>
